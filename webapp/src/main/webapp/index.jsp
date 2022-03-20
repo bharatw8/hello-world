@@ -1,9 +1,10 @@
 <form action="action_page.php">
+  <p id="p1"></p>
   <script>
-
-var today = new Date();
-
-</script>
+    var today = new Date();
+    var timestmp = today.getFullYear() + '-' + (today.getFullMonth()+1) + '-' + today.getDate() + ' ' + today.getHours() + ':'+ today.getMinutes() + ':'+today.getSeconds();
+    document.getElementById("p1").innerHTML = timestmp;
+  </script>
   <div class="container">
     <h1>Welcome to Bharat Devops Practice.</h1>
     <h2>This is the second deployment onto the Tomcat Server.</h2>
