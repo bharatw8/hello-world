@@ -1,4 +1,9 @@
 <form action="action_page.php">
+  <script>
+
+var today = new Date();
+
+</script>
   <div class="container">
     <h1>Welcome to Bharat Devops Practice.</h1>
     <h2>This is the second deployment onto the Tomcat Server.</h2>
